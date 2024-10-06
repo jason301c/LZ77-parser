@@ -14,7 +14,7 @@ A **right closed repeat** is a substring that appears more than once in the stri
 
 ### LZ77 Parsing
 
-LZ77 parsing is a way to compress a string by replacing repeating occurences with a "reference" to an occurence before it.
+LZ77 (Lempel-Ziv) parsing is a way to compress a string by replacing repeating occurences with a "reference" to an occurence before it.
 The _rightmost_ part basically means that the reference will use the most recently occured repetition (the right-most repetition)
 
 ### What did the paper outline?
