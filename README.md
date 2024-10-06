@@ -36,6 +36,8 @@ This is slightly cheaper in time compared to current methods, but with a tradeof
 ## Limitations
 Note that although the paper outlines the use of a suffix tree and a Van Emde Boas tree to achieve said complexity, this is a **simplified** version, which aims to eventually implement the algorithm shown on the paper.
 
+Therefore, this script does not mirror the complexity given in the paper, although that is the eventual goal.
+
 ## Usage
 Download the script and then run it with Python 3.9+.
 
